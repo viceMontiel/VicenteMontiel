@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  @apply bg-gradient-to-b from-[#071029] via-[#071a2f] to-[#1b1b3a] text-slate-100;
+  font-family: 'Inter', sans-serif;
+}
